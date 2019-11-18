@@ -16,6 +16,19 @@ int main(int argc, char *argv[]) {
    	for (j = 0; j < 10; j++ ) {
       	printf("Element[%d] = %d\n", j, n[j] );
    	}
+   	
+   	int arrayLength = 4;
+   	
+   	int array[arrayLength]; // Declare an array, size: 4
+   	
+   	array[0] = 20;
+   	array[1] = 30;
+   	array[2] = 10;
+   	array[3] = 50;
+   	
+   	for (i = 0; i < arrayLength; i++){
+   		printf("%d\n", array[i]);
+	   }
  
    	return 0;
 }
