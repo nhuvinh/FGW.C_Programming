@@ -18,10 +18,12 @@
   - Switch Statement
   - Loop
   - [Introduction to Git](https://git-scm.com/)
-    - git clone
+    - git init
     - git add
     - git commit
     - git push
+    - git pull
+    - git init
     - [More](https://www.youtube.com/watch?v=1JuYQgpbrW0)
   - [Github](https://github.com/)
   - [Introduction to Markdown Language](https://www.markdownguide.org/basic-syntax/)
@@ -32,8 +34,11 @@
     - Conditional Statement
     - Loop
 ### Week 2:
-  - Array and String
+  - Array
+    - Multidimensional Array
+  - String
   - Function
+    - Pass arrays to a function
   - [Struct](https://www.tutorialspoint.com/cprogramming/c_structures.htm)
   - Labs:
     - Array and String
