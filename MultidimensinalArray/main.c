@@ -5,7 +5,22 @@
 
 int main(int argc, char *argv[]) {
 	// Different ways to initialize two-dimensional array
-	int a[2][3] = {{1, 3, 0}, {-1, 5, 9}};
+	int row_a = 2;
+	int column_a = 3;
+	int a[row_a][column_a] = {{1, 3, 0}, {-1, 5, 9}};
+	int i = 0;
+	int j = 0;
+	
+	while(i < 2){
+		while (j < 3){
+			printf("%d ", a[i][j]);
+			j++;
+		}
+		i++;
+		j = 0;
+		printf("\n");
+	}
+	
          
 	int b[][3] = {{1, 3, 0}, {-1, 5, 9}};
                 
@@ -15,8 +30,7 @@ int main(int argc, char *argv[]) {
 	int WEEK = 7;
 	
 	int temperature[CITY][WEEK];
-	int i;
-	int j;
+	
   	// Using nested loop to store values in a 2d array
   	while(i < CITY)
   	{
